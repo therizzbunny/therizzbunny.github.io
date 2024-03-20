@@ -10,9 +10,17 @@
 	<link href="main.a0ef648aaae13a2d3ab7.css" rel="stylesheet">
 	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 	<style>
-	  .carousel-inner video {
-		width: 100%;
-	  }
+ .carousel-inner {
+      text-align: center;
+    }
+    .carousel-inner video {
+      max-width: 100%;
+      display: inline-block;
+    }
+	a:hover {
+    color: inherit;
+    text-decoration: unset;
+}
 	</style>
 </head>
 
@@ -34,7 +42,9 @@
 		</div>
 	</div>
 	<nav class="navigation-bar">
-		<ul class="navigation">
+		<ul class="navigation" style="
+		color: #fafafa;
+	">
 			<li class="navigation__item navigation__item--active" id="nav-hero"><a href="#hero">Home</a></li>
 			<li class="navigation__item" id="nav-about"><a href="#about">About</a></li>
 			<li class="navigation__item" id="nav-projects"><a href="#projects">Videos</a></li>
@@ -160,6 +170,7 @@
 		</div>
 	</section>
 	<section class="websites" id="websites">
+		<h2 class="projects__heading section-heading">Clips</h2>
 		<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 			<div class="carousel-inner">
 			  <div class="carousel-item active">
