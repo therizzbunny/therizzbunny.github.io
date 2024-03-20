@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Sugary | Full Stack Web Developer</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <title>Sugary | Full Stack Web Developer</title>
+
+  </head>
+  <body>
+    <div class="hero" id="hero">
+      <div class="canvas">
+        <canvas class="connecting-dots"></canvas>
+      </div>
+      <div class="heading">
+        <div class="heading__line-1">Hello, I'm <span>Sugary</span>.</div>
+        <div class="heading__line-2">web developer and Java programmer</div>
+        <a href="#about" class="heading__link">
+          <div class="heading-cta">
+            View my work
+
+            <svg
+              class="heading__arrow"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <title>arrow-right</title>
+              <path
+                d="M11.293 5.707l5.293 5.293h-11.586c-0.552 0-1 0.448-1 1s0.448 1 1 1h11.586l-5.293 5.293c-0.391 0.391-0.391 1.024 0 1.414s1.024 0.391 1.414 0l7-7c0.092-0.092 0.166-0.202 0.217-0.324 0.101-0.245 0.101-0.521 0-0.766-0.049-0.118-0.121-0.228-0.217-0.324l-7-7c-0.391-0.391-1.024-0.391-1.414 0s-0.391 1.024 0 1.414z"
+              ></path>
+            </svg>
+          </div>
+        </a>
+      </div>
+    </div>
+    <nav class="navigation-bar">
+      <ul class="navigation">
+        <li class="navigation__item navigation__item--active" id="nav-hero"><a href="#hero">Home</a></li>
+        <li class="navigation__item" id="nav-about"><a href="#about">About</a></li>
+        <li class="navigation__item" id="nav-websites"><a href="#websites">Websites</a></li>
+        <li class="navigation__item" id="nav-projects"><a href="#projects">Projects</a></li>
+        <li class="navigation__item" id="nav-contact"><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="main-bg">
+      <div class="canvas">
+        <canvas class="canvas-2"></canvas>
+      </div>
+    </div>
+    <section class="about" id="about">
+      <h2 class="about__heading section-heading">About</h2>
+
+      <div class="about__content">
+        <div class="profile">
+          <div class="profile__picture">
+        <!-- <svg
+              version="1.1"
+              id="Capa_1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              x="0px"
+              y="0px"
+              viewBox="0 0 482.9 482.9"
+              style="enable-background: new 0 0 482.9 482.9"
+              xml:space="preserve"
+              height="100%"
+              stroke="rgb(26, 26, 26)"
+              stroke-width="16"
+            >
+              <g>
+                <path
+                  fill="url(#gradient-1)"
+                  d="M239.7,260.2c0.5,0,1,0,1.6,0c0.2,0,0.4,0,0.6,0c0.3,0,0.7,0,1,0c29.3-0.5,53-10.8,70.5-30.5
+  			c38.5-43.4,32.1-117.8,31.4-124.9c-2.5-53.3-27.7-78.8-48.5-90.7C280.8,5.2,262.7,0.4,242.5,0h-0.7c-0.1,0-0.3,0-0.4,0h-0.6
+  			c-11.1,0-32.9,1.8-53.8,13.7c-21,11.9-46.6,37.4-49.1,91.1c-0.7,7.1-7.1,81.5,31.4,124.9C186.7,249.4,210.4,259.7,239.7,260.2z
+  			 M164.6,107.3c0-0.3,0.1-0.6,0.1-0.8c3.3-71.7,54.2-79.4,76-79.4h0.4c0.2,0,0.5,0,0.8,0c27,0.6,72.9,11.6,76,79.4
+  			c0,0.3,0,0.6,0.1,0.8c0.1,0.7,7.1,68.7-24.7,104.5c-12.6,14.2-29.4,21.2-51.5,21.4c-0.2,0-0.3,0-0.5,0l0,0c-0.2,0-0.3,0-0.5,0
+  			c-22-0.2-38.9-7.2-51.4-21.4C157.7,176.2,164.5,107.9,164.6,107.3z"
+                />
+                <path
+                  fill="url(#gradient-2)"
+                  d="M446.8,383.6c0-0.1,0-0.2,0-0.3c0-0.8-0.1-1.6-0.1-2.5c-0.6-19.8-1.9-66.1-45.3-80.9c-0.3-0.1-0.7-0.2-1-0.3
+  			c-45.1-11.5-82.6-37.5-83-37.8c-6.1-4.3-14.5-2.8-18.8,3.3c-4.3,6.1-2.8,14.5,3.3,18.8c1.7,1.2,41.5,28.9,91.3,41.7
+  			c23.3,8.3,25.9,33.2,26.6,56c0,0.9,0,1.7,0.1,2.5c0.1,9-0.5,22.9-2.1,30.9c-16.2,9.2-79.7,41-176.3,41
+  			c-96.2,0-160.1-31.9-176.4-41.1c-1.6-8-2.3-21.9-2.1-30.9c0-0.8,0.1-1.6,0.1-2.5c0.7-22.8,3.3-47.7,26.6-56
+  			c49.8-12.8,89.6-40.6,91.3-41.7c6.1-4.3,7.6-12.7,3.3-18.8c-4.3-6.1-12.7-7.6-18.8-3.3c-0.4,0.3-37.7,26.3-83,37.8
+  			c-0.4,0.1-0.7,0.2-1,0.3c-43.4,14.9-44.7,61.2-45.3,80.9c0,0.9,0,1.7-0.1,2.5c0,0.1,0,0.2,0,0.3c-0.1,5.2-0.2,31.9,5.1,45.3
+  			c1,2.6,2.8,4.8,5.2,6.3c3,2,74.9,47.8,195.2,47.8s192.2-45.9,195.2-47.8c2.3-1.5,4.2-3.7,5.2-6.3
+  			C447,415.5,446.9,388.8,446.8,383.6z"
+                />
+              </g>
+              <defs>
+                <linearGradient id="gradient-1" x1="0" y1="0" x2="80%" y2="80%">
+                  <stop stop-color="rgb(81,162,233)" offset="0%" />
+                  <stop stop-color="rgb(168,120,162)" offset="100%" />
+                </linearGradient>
+
+                <linearGradient
+                  id="gradient-2"
+                  x1="20%"
+                  y1="20%"
+                  x2="100%"
+                  y2="100%"
+                >
+                  <stop stop-color="rgb(168,120,162)" offset="0%" />
+                  <stop stop-color="rgb(255,77,90)" offset="100%" />
+                </linearGradient>
+              </defs>
+            </svg>-->
+        <img class="profilepic" src="assets/sugary1.jpg" alt="" />
+          </div>
+          <p class="profile__blurb">
+          I’m a full stack developer with a deep passion for web development and Java programming. The unique combination of creativity, logic, technology and never running out of new things to discover, drives my excitement and passion for web development. When I’m not at my computer I like to spend my time reading, keeping fit and playing guitar.
+          </p>
+        </div>
+
+        <!-- <h2 class="about__heading">Skills & technologies</h2> -->
+        <div class="skills">
+
+          <div class="skills__row">
+            <div class="skills__item skills__item--html">
+              <img src="./assets/html.png" alt="" />
+              <div class="skills__item-name">HTML</div>
+            </div>
+            <div class="skills__item skills__item--react">
+              <img src="./assets/react.png" alt="" />
+              <div class="skills__item-name">REACT</div>
+            </div>
+
+            <div class="skills__item skills__item--npm">
+              <img src="./assets/java1.png" alt="" />
+              <div class="skills__item-name">JAVA</div>
+            </div>
+          </div>
+          <div class="skills__row">
+            <div class="skills__item skills__item--js">
+              <img src="./assets/js.png" alt="" />
+              <div class="skills__item-name">JAVASCRIPT</div>
+            </div>
+            <div class="skills__item skills__item--css">
+              <img src="./assets/css.png" alt="" />
+              <div class="skills__item-name">CSS</div>
+            </div>
+            <div class="skills__item skills__item--git">
+              <img src="./assets/git.png" alt="" />
+              <div class="skills__item-name">GIT</div>
+            </div>
+          </div>
+          <div class="skills__row">
+            <div class="skills__item skills__item--sass">
+              <img src="./assets/sass.png" alt="" />
+              <div class="skills__item-name">SASS</div>
+            </div>
+            <div class="skills__item skills__item--webpack">
+              <img src="./assets/nextjs.png" alt="" />
+              <div class="skills__item-name">NEXT.JS</div>
+            </div>
+
+            <div class="skills__item skills__item--r">
+              <img src="./assets/php.png" alt="" />
+              <div class="skills__item-name">PHP</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <section class="websites" id="websites">
+      <h2 class="about__heading section-heading">Previous websites</h2>
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="assets/ELY.png" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="assets/XEROS.png" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="assets/EXORA.png" alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+    <section class="projects" id="projects">
+      <h2 class="projects__heading section-heading">Projects</h2>
+      <div class="project project-right">
+        <div class="project__info">
+          <h3 class="project__title">Runescape private server</h3>
+          <p class="project__description">A runescape emulator coded in Java 11 and Kotlin . </p>
+          <a href="https://righteouspk.com" target="_blank"
+          ><div class="project__live-2">live app</div></a
+          >
+          <a href="https://github.com/sugaryrear/rsps-client" target="_blank"
+          ><div class="project__live-2">learn more</div></a
+          >
+        </div>
+
+        <div class="project__image-container todo">
+          <div class="project__image-image">
+            <img src="./assets/rsps.png" alt="" />
+          </div>
+        </div>
+
+      </div>
+      <div class="project project-left">
+          <div class="project__image-container weather">
+            <div class="project__image-image">
+              <img src="./assets/alorastore.png" alt="" />
+            </div>
+          </div>
+
+        <div class="project__info">
+          <h3 class="project__title">eCommerce store</h3>
+          <p class="project__description">An eCommerce store for a video game website built using JavaScript and PHP that uses the PayPal API to validate payments.</p>
+          <a href="https://www.alora.io/store/" target="_blank"
+            ><div class="project__live-2">Live app</div></a
+          >
+          <a href="https://github.com/sugaryrear/webstore/tree/master/StoreV2/website_files" target="_blank"
+            ><div class="project__live-2">learn more</div></a
+          >
+        </div>
+      </div>
+
+      <div class="project project-right">
+        <div class="project__info">
+          <h3 class="project__title">Voting Page</h3>
+          <p class="project__description">A voting page made using PHP that uses an API to validate votes from different sites and rewards users with credits that are stored in a database. </p>
+          <a href="https://www.alora.io/vote/" target="_blank"
+            ><div class="project__live-2">live app</div></a
+          >
+          <a href="https://github.com/sugaryrear/voting" target="_blank"
+            ><div class="project__live-2">learn more</div></a
+          >
+        </div>
+
+          <div class="project__image-container todo">
+            <div class="project__image-image">
+              <img src="./assets/votingpage.png" alt="" />
+            </div>
+          </div>
+
+      </div>
+
+
+
+    </section>
+    <section class="contact" id="contact">
+      <h2 class="contact__heading section-heading">Contact</h2>
+      <p class="contact__text">Have a question or want to work together? Leave your details and I'll get back to you as soon as possible.</p>
+
+      <form id="my-form" action="https://formspree.io/f/xzbolark" method="POST">
+        <input
+          class="contact__form-name"
+          type="text"
+          name="name"
+          placeholder="Name"
+
+        />
+
+        <input    class="contact__form-email" type="email" name="email" />
+        <input       class="contact__form-message" type="text" name="message" />
+
+        <button class="contact__form-submit-2 project__live-2" id="my-form-button">Submit</button>
+        <p id="my-form-status"></p>
+      </form>
+      <script>
+        var form = document.getElementById("my-form");
+
+        async function handleSubmit(event) {
+          event.preventDefault();
+          var status = document.getElementById("my-form-status");
+          var data = new FormData(event.target);
+          fetch(event.target.action, {
+            method: form.method,
+            body: data,
+            headers: {
+              'Accept': 'application/json'
+            }
+          }).then(response => {
+            if (response.ok) {
+              status.innerHTML = "Thanks for your submission!";
+              form.reset()
+            } else {
+              response.json().then(data => {
+                if (Object.hasOwn(data, 'errors')) {
+                  status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+                } else {
+                  status.innerHTML = "Oops! There was a problem submitting your form"
+                }
+              })
+            }
+          }).catch(error => {
+            status.innerHTML = "Oops! There was a problem submitting your form"
+          });
+        }
+        form.addEventListener("submit", handleSubmit)
+      </script>
+    </section>
+    <footer class="footer">
+      <a href="#hero">
+        <div class="return-home">
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="100%"  viewBox="0 0 24 24" >
+            <title></title>
+            <path fill="#fafafa" d="M17.707 10.293l-5-5c-0.391-0.391-1.024-0.391-1.414 0l-5 5c-0.391 0.391-0.391 1.024 0 1.414s1.024 0.391 1.414 0l4.293-4.293 4.293 4.293c0.391 0.391 1.024 0.391 1.414 0s0.391-1.024 0-1.414zM17.707 17.293l-5-5c-0.391-0.391-1.024-0.391-1.414 0l-5 5c-0.391 0.391-0.391 1.024 0 1.414s1.024 0.391 1.414 0l4.293-4.293 4.293 4.293c0.391 0.391 1.024 0.391 1.414 0s0.391-1.024 0-1.414z"></path>
+            </svg>
+        </div>
+      </a>
+      <div class="socials">
+        <a href="https://github.com/sugaryrear" target="_blank">
+          <div class="socials__github">
+            <img src="./assets/github-logo.png" alt="" />
+          </div>
+        </a>
+        <a href="mailto:auuajdeka@gmail.com" target="_blank">
+          <div class="socials__email">
+            <img src="./assets/mail.png" alt="" />
+          </div>
+
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
